@@ -43,7 +43,7 @@ const handleSignup = (e) => {
 
 const LoginWindow = (props) => {
   return (
-    <form id='loginForm'
+    <form id='loginForm' //dumb error bc eslint hates me in particular - does not effect program
       name='loginForm'
       onSubmit={handleLogin}
       action='/login'
